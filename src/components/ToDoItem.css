@@ -1,0 +1,32 @@
+.item-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    padding: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.475);
+    border-radius: 5px;
+    outline: none;
+    width: 800px;
+    font-size: 16px;
+    padding: 1.5%;
+}
+
+.checkbox-container,.button-container{
+    display: flex;
+    gap: 5px;
+}
+.button-container{
+    justify-content: right;
+}
+.delete-button,.edit-button{
+    cursor: pointer;
+    font-size: 16px;
+}
+.checkbox{
+    width: 20px;
+    height: 20px;
+    accent-color: #007bff; /* Change color */
+    cursor: pointer;
+}
+.checkbox:hover{
+    filter: drop-shadow(0 0 5px #007bff)
+}

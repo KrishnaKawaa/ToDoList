@@ -1,0 +1,26 @@
+.input-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.add-button{
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.add-button:hover{
+    background-color: #0056b3;
+}
+.input{
+    padding: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.475);
+    border-radius: 5px;
+    outline: none;
+    width: 600px;
+    font-size: 16px;
+}
